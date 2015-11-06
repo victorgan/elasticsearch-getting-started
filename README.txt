@@ -37,3 +37,19 @@ The video suggests to use curl, which isn't on windows.
 Also try
 http://localhost:9200/_cluster/health
 http://localhost:9200/_cluster/health?pretty
+
+7. Install Marvel. It's a Browser-based UI for elasticsearch.
+The video says
+Windows: plugin install elasticsearch/marvel/latest
+Linux: plugin -i elasticsearch/marvel/latest
+
+It couldn't find it. Instead, from 
+https://www.elastic.co/guide/en/marvel/current/installing-marvel.html
+
+Windows, in elasticsearch-2.0.0/bin directory: 
+plugin install license
+plugin install marvel-agent
+
+8. Install Kabana. I'm not sure what it is.
+https://www.elastic.co/downloads/kibana
+
