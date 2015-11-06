@@ -53,3 +53,4 @@ plugin install marvel-agent
 8. Install Kabana. I'm not sure what it is.
 https://www.elastic.co/downloads/kibana
 
+9. Set the elasticsearch.url to the elasticsearch instance.
