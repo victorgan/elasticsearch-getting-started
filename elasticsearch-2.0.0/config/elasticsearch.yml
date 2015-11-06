@@ -14,13 +14,13 @@
 #
 # Use a descriptive name for your cluster:
 #
-# cluster.name: elasticsearch-gan-dev
+cluster.name: elasticsearch-gan-dev
 #
 # ------------------------------------ Node ------------------------------------
 #
 # Use a descriptive name for the node:
 #
-# node.name: gan-1-dev
+node.name: gan-1-dev
 #
 # Add custom attributes to the node:
 #
