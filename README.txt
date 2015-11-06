@@ -12,6 +12,9 @@ http://p.brightact.com/p/showTile/10137
 Elastic search setup guide
 https://www.elastic.co/guide/en/elasticsearch/reference/current/setup.html
 
+Steps 1-5
+https://www.youtube.com/watch?v=l6wXE5SBJ_A
+
 Steps
 =====
 
@@ -26,5 +29,11 @@ http://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_instal
 4. Set JAVA_HOME environment variable to C:\Program Files\Java\jdk1.8.0_65
 http://www.wikihow.com/Set-Java-Home
 
-5. Run elasticsearch.bat
+5. Run bin/elasticsearch.bat
 
+6. go to http://localhost:9200/ in your browser.
+
+The video suggests to use curl, which isn't on windows.
+Also try
+http://localhost:9200/_cluster/health
+http://localhost:9200/_cluster/health?pretty
