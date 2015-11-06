@@ -45,4 +45,10 @@ Temporary Items
 # 
 elasticsearch-2.0.0/data
 elasticsearch-2.0.0/data
-kibana-4.2.0-windows
+kibana-4.2.0-windows/bin
+kibana-4.2.0-windows/installedPlugins
+kibana-4.2.0-windows/node
+kibana-4.2.0-windows/node_modules
+kibana-4.2.0-windows/optimize
+kibana-4.2.0-windows/src
+kibana-4.2.0-windows/webpackShims
